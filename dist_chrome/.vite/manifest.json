@@ -1,0 +1,99 @@
+{
+  "../../../../../../../../@crx/manifest": {
+    "file": "assets/crx-manifest.js-CDwHycFk.js",
+    "name": "crx-manifest.js",
+    "src": "../../../../../../../../@crx/manifest",
+    "isEntry": true
+  },
+  "_client-DMMay1Gt.js": {
+    "file": "assets/client-DMMay1Gt.js",
+    "name": "client"
+  },
+  "_index.tsx-loader-7Xa4ocQJ.js": {
+    "file": "assets/index.tsx-loader-7Xa4ocQJ.js",
+    "src": "_index.tsx-loader-7Xa4ocQJ.js"
+  },
+  "_modulepreload-polyfill-B5Qt9EMX.js": {
+    "file": "assets/modulepreload-polyfill-B5Qt9EMX.js",
+    "name": "modulepreload-polyfill"
+  },
+  "_tailwind-D4kK5RQq.css": {
+    "file": "assets/tailwind-D4kK5RQq.css",
+    "src": "_tailwind-D4kK5RQq.css"
+  },
+  "_tailwind-DzAxQA8c.js": {
+    "file": "assets/tailwind-DzAxQA8c.js",
+    "name": "tailwind",
+    "imports": [
+      "_client-DMMay1Gt.js"
+    ],
+    "css": [
+      "assets/tailwind-D4kK5RQq.css"
+    ]
+  },
+  "src/pages/background/index.ts": {
+    "file": "assets/index.ts-Chl-eaRG.js",
+    "name": "index.ts",
+    "src": "src/pages/background/index.ts",
+    "isEntry": true
+  },
+  "src/pages/content/index.tsx": {
+    "file": "assets/index.tsx-DoKQlA4A.js",
+    "name": "index.tsx",
+    "src": "src/pages/content/index.tsx",
+    "isEntry": true,
+    "imports": [
+      "_client-DMMay1Gt.js"
+    ]
+  },
+  "src/pages/devtools/index.html": {
+    "file": "assets/index.html-D_uRghih.js",
+    "name": "index.html",
+    "src": "src/pages/devtools/index.html",
+    "isEntry": true,
+    "imports": [
+      "_modulepreload-polyfill-B5Qt9EMX.js"
+    ]
+  },
+  "src/pages/options/index.html": {
+    "file": "assets/index.html-BDHzeT_l.js",
+    "name": "index.html",
+    "src": "src/pages/options/index.html",
+    "isEntry": true,
+    "imports": [
+      "_modulepreload-polyfill-B5Qt9EMX.js",
+      "_client-DMMay1Gt.js"
+    ],
+    "css": [
+      "assets/index-tNvtlvL0.css"
+    ]
+  },
+  "src/pages/panel/index.html": {
+    "file": "assets/index.html-DUQwBrrf.js",
+    "name": "index.html",
+    "src": "src/pages/panel/index.html",
+    "isEntry": true,
+    "imports": [
+      "_modulepreload-polyfill-B5Qt9EMX.js",
+      "_client-DMMay1Gt.js",
+      "_tailwind-DzAxQA8c.js"
+    ],
+    "css": [
+      "assets/index-BBaraEAZ.css"
+    ]
+  },
+  "src/pages/popup/index.html": {
+    "file": "assets/index.html-CmxE5V12.js",
+    "name": "index.html",
+    "src": "src/pages/popup/index.html",
+    "isEntry": true,
+    "imports": [
+      "_modulepreload-polyfill-B5Qt9EMX.js",
+      "_client-DMMay1Gt.js",
+      "_tailwind-DzAxQA8c.js"
+    ],
+    "css": [
+      "assets/index-C3y4hrGI.css"
+    ]
+  }
+}
