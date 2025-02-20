@@ -1,10 +1,7 @@
-import React from 'react';
-import '@pages/panel/Panel.css';
+import React from "react";
+import "@/pages/panel/Panel.css";
+import Chat from "@/components/chat";
 
 export default function Panel() {
-  return (
-    <div className="container">
-      <h1>Side Panel</h1>
-    </div>
-  );
+ return <Chat />;
 }
