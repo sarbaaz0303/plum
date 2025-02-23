@@ -32,10 +32,10 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
  console.log("Message received:", message);
 
  if (message.type === "USER_MESSAGE") {
-  sendData("http://localhost:8000/responses/", { message: message.payload })
+  sendData("http://localhost:8000/response/", { message: message.payload })
    .then((response) => sendResponse({ success: true, content: response }))
    .catch((error) => sendResponse({ success: false, error: error.message }));
-   
+
   return true;
  }
 });
