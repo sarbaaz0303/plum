@@ -7,11 +7,15 @@
     "page": "src/pages/options/index.html"
   },
   "action": {
-    "default_icon": "public/icon-32.png",
-    "default_popup": "src/pages/popup/index.html"
+    "default_title": "Open Plum Assistant",
+    "default_icon": {
+      "32": "public/icons/icon-32.png",
+      "128": "public/icons/icon-128.png"
+    }
   },
   "icons": {
-    "128": "public/icon-128.png"
+    "32": "public/icons/icon-32.png",
+    "128": "public/icons/icon-128.png"
   },
   "permissions": [
     "storage",
@@ -29,7 +33,7 @@
   "content_scripts": [
     {
       "js": [
-        "assets/index.tsx-loader-7Xa4ocQJ.js"
+        "assets/index.tsx-loader-wQ31kegX.js"
       ],
       "matches": [
         "http://*/*",
@@ -48,8 +52,8 @@
       "matches": [],
       "resources": [
         "contentStyle.css",
-        "icon-128.png",
-        "icon-32.png"
+        "icons/icon-128.png",
+        "icons/icon-32.png"
       ],
       "use_dynamic_url": false
     },
@@ -60,8 +64,7 @@
         "https://*/*"
       ],
       "resources": [
-        "assets/client-DMMay1Gt.js",
-        "assets/index.tsx-DoKQlA4A.js"
+        "assets/index.tsx-B72PN3yB.js"
       ],
       "use_dynamic_url": false
     }

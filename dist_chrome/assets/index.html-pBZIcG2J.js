@@ -1,2 +1,0 @@
-import"./modulepreload-polyfill-B5Qt9EMX.js";import{j as o,c as r}from"./client-DMMay1Gt.js";/* empty css                 */function n(){return o.jsx("div",{className:"container",children:o.jsx("h1",{children:"Side Panel"})})}function e(){const t=document.querySelector("#__root");if(!t)throw new Error("Can't find Panel root element");r.createRoot(t).render(o.jsx(n,{}))}e();
-//# sourceMappingURL=index.html-pBZIcG2J.js.map

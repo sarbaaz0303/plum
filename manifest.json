@@ -7,16 +7,15 @@
   "page": "src/pages/options/index.html"
  },
  "action": {
-  "default_popup": "src/pages/popup/index.html",
   "default_title": "Open Plum Assistant",
   "default_icon": {
-   "32": "icons/icon-32.png",
-   "128": "icons/icon-128.png"
+   "32": "public/icons/icon-32.png",
+   "128": "public/icons/icon-128.png"
   }
  },
  "icons": {
-  "32": "icons/icon-32.png",
-  "128": "icon-128.png"
+  "32": "public/icons/icon-32.png",
+  "128": "public/icons/icon-128.png"
  },
  "permissions": [
   "storage",
@@ -42,7 +41,7 @@
  "devtools_page": "src/pages/devtools/index.html",
  "web_accessible_resources": [
   {
-   "resources": ["contentStyle.css", "icon-128.png", "icon-32.png"],
+   "resources": ["contentStyle.css", "icons/icon-128.png", "icons/icon-32.png"],
    "matches": []
   }
  ]

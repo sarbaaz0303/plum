@@ -1,0 +1,2 @@
+console.log("background script loaded");chrome.runtime.onInstalled.addListener(async()=>{console.log("Extension installed");try{await chrome.sidePanel.setOptions({enabled:!0}),console.log("Sidebar permission enabled")}catch(e){console.error("Failed to enable sidebar:",e)}});chrome.runtime.onMessage.addListener((e,r,o)=>{if(console.log("Message received:",e),e.type==="USER_MESSAGE")return o({reply:"Hello from the background script!"}),!0});
+//# sourceMappingURL=index.ts-DEyCUrcy.js.map
